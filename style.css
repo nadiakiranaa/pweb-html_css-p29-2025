@@ -17,6 +17,14 @@ body {
     line-height: 1.6;
 }
 
+.hero-desc {
+    font-size: 1rem;
+    color: #c0c0c0;
+    margin-top: 1rem;
+    max-width: 450px;  /* biar teks tidak kepanjangan */
+    line-height: 1.6;
+}
+
 .hero-section {
     display: flex; 
     align-items: center;
@@ -127,9 +135,14 @@ body {
 
 footer {
     text-align: center;
-    padding: 2rem;
-    color: #555;
+    padding: 2rem 1rem;        /* kasih ruang lebih */
+    background-color: var(--primary-color); /* biar kontras */
+    color: var(--text-color);  /* pakai warna teks utama */
+    margin-top: 3rem;          /* beri jarak dari konten atas */
+    font-size: 0.9rem;         /* agak kecil biar elegan */
+    border-top: 1px solid #333; /* pemisah */
 }
+
 
 .cv-page {
     display: flex; 
